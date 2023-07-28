@@ -1,0 +1,8 @@
+.nav{
+    background-color: rgb(31, 120, 199);
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    height: 60px;
+    text-align: center;
+}
