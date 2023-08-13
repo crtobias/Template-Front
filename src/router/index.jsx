@@ -4,15 +4,15 @@ import { Main } from "../layouts"
 import { Home } from "../pages";
 
 export const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Main />,
-        children: [
-          {
-            index: true,
-            element: <Home />,
-          }
-        ],
-      },
-      
-    ]);
+  {
+    path: "/",
+    element: <Main />,
+    children: [
+      {
+        index: true,
+        element: <Home />,
+      }
+    ],
+  },
+
+]);
